@@ -3,7 +3,7 @@
 function search() {
   let movie = document.querySelector('.search-box').value;
 
-  let api = "http://www.omdbapi.com/?t=" + movie + "&apikey=cd6b73ec&"
+  let api = "https://www.omdbapi.com/?t=" + movie + "&apikey=cd6b73ec&"
 
   fetch(api)
     .then((response) => response.json())
